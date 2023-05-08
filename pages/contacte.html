@@ -51,26 +51,28 @@
                     </ul>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-50">
-                    <iframe class="map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.0105530833366!2d28.86855527683138!3d47.05964332558667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97ce08a10e683%3A0x4d92abaf28198b6!2zU3RyYWRhIFN0dWRlbsibaWxvciwgQ2hpyJlpbsSDdSwg0JzQvtC70LTQsNCy0LjRjw!5e0!3m2!1sru!2sde!4v1683115825230!5m2!1sru!2sde"
-                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-
-                <div class="col-50">
-                    <div class="contact-form">
-                        <form>
-                            <h3 class="centered">Lasa un mesaj</h3>
-                            <input id="name" type="text" placeholder="Nume" required />
-                            <input id="email" type="email" placeholder="Email" required />
-                            <textarea id="message" rows="3" placeholder="Mesaj" required></textarea>
-                            <input class="btn-submit" type="submit" value="Transmite" onclick="send_email()" required>
-                        </form>
+            
+            <div class="contact-form-container">
+                <div class="row">
+                    <div class="col-50">
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.0105530833366!2d28.86855527683138!3d47.05964332558667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97ce08a10e683%3A0x4d92abaf28198b6!2zU3RyYWRhIFN0dWRlbsibaWxvciwgQ2hpyJlpbsSDdSwg0JzQvtC70LTQsNCy0LjRjw!5e0!3m2!1sru!2sde!4v1683115825230!5m2!1sru!2sde"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                </div>
 
+                    <div class="col-50">
+                        <div class="contact-form">
+                            <form>
+                                <h3 class="centered">Lasa un mesaj</h3>
+                                <input id="name" type="text" placeholder="Nume" required />
+                                <input id="email" type="email" placeholder="Email" required />
+                                <textarea id="message" rows="3" placeholder="Mesaj" required></textarea>
+                                <input class="btn-submit" type="submit" value="Transmite" onclick="send_email()" required>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </main>
 
