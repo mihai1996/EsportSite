@@ -36,6 +36,20 @@ header a {
     text-decoration: none;
 }
 
+footer {
+    height: 70px;
+    background-color: #0f1626;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    border: none;
+}
+
 .page-container {
     min-height: 100vh;
     padding-top: 70px;
@@ -116,6 +130,7 @@ p {
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 40px;
+    padding-bottom: 20px;
 }
 
 .gallery img {
@@ -233,6 +248,10 @@ p {
         padding-bottom: 25px;
     }
 
+    main {
+        padding-bottom: 70px;
+    }
+
     .gallery img {
         width: 130px;
         height: 130px;
@@ -243,7 +262,8 @@ p {
     }
 
     .row {
-        overflow: visible;
+        padding-bottom: 30px;
+        margin-top: -30px;
     }
 
 
